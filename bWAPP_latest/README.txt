@@ -52,5 +52,4 @@ Enjoy!
 
 Cheers
 
-Malik Mesellem
-Twitter: @MME_IT
+
