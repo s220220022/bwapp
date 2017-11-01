@@ -8,21 +8,17 @@
 
 1. 建立 docker image
 
-$ docker build -t bwapp .
+  $ docker build -t bwapp .
 
 2. 建立 docker 容器(container)
 
-創一個容器，本容器80端口映射到8080端口上
-$ docker run -it --name bwapp_vul -p 0.0.0.0:8080:80 bwapp /bin/bash
-$docker run -it -d -p 8080:80 bwapp
-$docker exec -it 容器名稱 bash
+   $ docker run -it --name bwapp_vul -p 0.0.0.0:8080:80 bwapp /bin/bash
+
 
 3.開啟網頁
 
 http://127.0.0.1:8080/bWAPP/login.php 出現bwapp 網站
 
-4.沒出現bwapp ，則自己創一個bwapp 。
-<html# mysql -uroot -pbug -e 'create database bWAPP;' 
 
 ## 配置说明
 
